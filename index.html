@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtAngels</title>
+    <meta name="description" content="Página web con contenido de Grimes" />
+    <link rel="icon" href="img/icon.png">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document" />
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header shadow">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre no-margin centrar-texto">
+              Art<span class="logo__bold">Angels</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <a href="grimes.html" class="navegacion__enlace">Grimes</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header__texto">
+        <h2 class="no-margin">Blog acerca de Grimes</h2>
+        <p class="no-margin">
+          Información de la artista 'c', mejor conocida como Grimes.
+        </p>
+      </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+      <main class="blog">
+        <h3 class="logo__bold">Albumes</h3>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <img loading="lazy" src="img/artangels.webp" alt="imagen blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Art Angels</h4>
+            <p>
+              "Art Angels" es el cuarto álbum de estudio de la cantante
+              canadiense Grimes, lanzado en 2015. El álbum es una exploración de
+              la música pop experimental, con canciones que combinan elementos
+              de géneros como el pop, el rock, el electrónica y el hip-hop. Las
+              letras del álbum abordan temas como la identidad, la fama y el
+              amor. "Art Angels" recibió críticas positivas por su originalidad
+              y experimentación.
+            </p>
+            <a href="entrada-artangels.html" class="boton boton--primario"
+              >Leer Más</a
+            >
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <img loading="lazy" src="img/visions.webp" alt="imagen blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Visions</h4>
+            <p>
+              "Visions" es el tercer álbum de estudio de la cantante canadiense
+              Grimes, lanzado en 2012. El álbum es una mezcla de géneros que
+              incluyen electrónica, pop y experimental, y presenta letras
+              introspectivas y oníricas. "Visions" recibió críticas positivas
+              por su originalidad y creatividad, y fue un éxito comercial y de
+              crítica.
+            </p>
+            <a href="entrada-visions.html" class="boton boton--primario"
+              >Leer Más</a
+            >
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <img loading="lazy" src="img/missam.webp" alt="imagen blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Miss Anthropocene</h4>
+            <p>
+              "Miss Anthropocene" es el quinto álbum de estudio de la cantante
+              canadiense Grimes, lanzado en 2020. El álbum es una exploración de
+              la relación entre la humanidad y el medio ambiente, con letras que
+              abordan temas como la destrucción del planeta y la tecnología.
+              Musicalmente, el álbum es una mezcla de géneros que incluyen
+              electrónica, pop y experimental. "Miss Anthropocene" recibió
+              críticas positivas por su originalidad y ambición.
+            </p>
+            <a href="entrada-missam.html" class="boton boton--primario"
+              >Leer Más</a
+            >
+          </div>
+        </article>
+      </main>
+      <aside class="sidebar">
+        <h3 class="logo__bold">
+          Playlist y enlaces a sitios oficiales de Grimes
+        </h3>
+
+        <ul class="sideb no-padding">
+          <li class="widget-sideb">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evNZYyWSQ?utm_source=generator"
+              width="100%"
+              height="500"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </li>
+
+          <li class="widget-sideb">
+            <h4 class="no-margin logo__bold">Sitio web oficial de Grimes</h4>
+            <picture>
+              <img class="borde margint" src="img/elftech.jpg" alt="Elf tech" />
+            </picture>
+
+            <p class="widget-sideb__label">
+              El siguiente botón te lleva a Elf Tech, el sitio oficial de Grimes
+              en el cual puedes ingresar audios y tranformarlos con IA que
+              asemejará a la voz de la misma 'c', así como información sobre sus
+              actulizaciones, tan solo tienes que suscribirte de manera gratuita
+              para poder ingresar.
+            </p>
+            <div class="elf">
+              <a
+                href="https://elf.tech"
+                class="boton boton--primario"
+                target="_blank"
+                >Elf Tech</a
+              >
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre no-margin centrar-texto">
+              Art<span class="logo__bold">Angels</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <a href="grimes.html" class="navegacion__enlace">Grimes</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>
